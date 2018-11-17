@@ -1,6 +1,9 @@
 # dashboard
 
-Bootstrap 4 -- Responsive Web Design
+An admin dashboard made with bootstrap 3.
+
+example from the book: 
+  Bootstrap 4 -- Responsive Web Design
 
 The fluid container
 The flexbox layout
