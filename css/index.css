@@ -168,3 +168,31 @@ nav #nav-menu {
 #nav-profile img {
 	max-height: 2.3em;
 }
+
+/* Side Menu */
+
+#side-menu {
+	background-color: #1b1e24;
+	padding-top: 7.2rem;
+	height: 100%;
+	position: fixed;
+}
+
+#side-menu .profile-block > * {
+	display: inline-block;
+}
+
+#side-menu .profile-block img {
+	width: 70px;
+}
+
+#side-menu .profile-title {
+	color: #FFF;
+	margin-left: 1rem;
+	font-size: 1.5em;
+	vertical-align: middle;
+}
+
+#side-menu .profile-title small {
+	display: block;
+}

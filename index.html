@@ -53,6 +53,7 @@
 										Notifications
 									</button>
 								</div>
+
 									<ul id="notification-list" class="dropdown-menu pull-right">
 										<li>
 											<a href="#">
@@ -89,25 +90,43 @@
 										</li>
 									</ul>
 
-										<div id="nav-profile" class="btn-group pull-right">
-											<button type="button" class="btn btn-link dropdown-toggle thumbnail" data-toggle="dropdown" aria-hasopup="true" aria-expanded="false">
-												<img src="./imgs/jon.png" class="img-circle">
-											</button>
-											<ul class="dropdown-menu">
-												<li><a href="#">Profile</a></li>
-												<li><a href="#">Setting</a></li>
-												<li role="serarator" class="divider"><a href="#">divider"></a></li>
-												<li><a href="#">Logout</a></li>
-											</ul>
-										</div>
-										
+									<div id="nav-profile" class="btn-group pull-right">
+										<button type="button" class="btn btn-link dropdown-toggle thumbnail" data-toggle="dropdown" aria-hasopup="true" aria-expanded="false">
+											<img src="./imgs/jon.png" class="img-circle">
+										</button>
+										<ul class="dropdown-menu">
+											<li><a href="#">Profile</a></li>
+											<li><a href="#">Setting</a></li>
+											<li role="serarator" class="divider"><a href="#">divider"></a></li>
+											<li><a href="#">Logout</a></li>
+										</ul>
 									</div>
-								</li>
-							</ul>
-						</div>
+								</div>
+							</li>
+						</ul>
 					</div>
 				</div>
-			</nav>
+			</div>
+		</nav>
+
+		<!-- Main Content -->
+
+		<div class="container-fluid">
+			<div class="row">
+
+				<div id="side-menu" class="col-sm-3 hidden-xs" data-spy="affix" data-offset-top="0">
+					<div class="profile-block">
+						<img src="./imgs/jon.png" class="img-circle">
+						<h4 class="profile-title">Jonny Doo <small>@jonnydoo</small></h4>
+					</div>
+				</div>
+
+				<div id="main" class="col-sm-offset-3 col-sm-9">
+
+				</div>	
+			</div>
+		</div>
+
 
 		<script src="js/jquery-1.11.3.js"></script>
 		<script src="js/bootstrap.js"></script>
