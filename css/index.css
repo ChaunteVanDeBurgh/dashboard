@@ -152,3 +152,19 @@ nav #nav-menu {
 	font-size: 0.7em;
 	color: #646C82;
 }
+
+/*profile pitcture*/
+#nav-profile {
+	margin: 0.5em;
+	margin-left: 1em;
+}
+
+#nav-profile button.thumbnail {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#nav-profile img {
+	max-height: 2.3em;
+}

@@ -49,9 +49,10 @@
 							<li>
 								<div id="btn-notifications" class="btn-group">
 									<span class='badge'>3</span>
-									<button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopus="true" aria-expanded="false">
+									<button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										Notifications
 									</button>
+								</div>
 									<ul id="notification-list" class="dropdown-menu pull-right">
 										<li>
 											<a href="#">
@@ -87,15 +88,26 @@
 											</a>
 										</li>
 									</ul>
-								</div>
-							</li>
-						</ul>
+
+										<div id="nav-profile" class="btn-group pull-right">
+											<button type="button" class="btn btn-link dropdown-toggle thumbnail" data-toggle="dropdown" aria-hasopup="true" aria-expanded="false">
+												<img src="./imgs/jon.png" class="img-circle">
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="#">Profile</a></li>
+												<li><a href="#">Setting</a></li>
+												<li role="serarator" class="divider"><a href="#">divider"></a></li>
+												<li><a href="#">Logout</a></li>
+											</ul>
+										</div>
+										
+									</div>
+								</li>
+							</ul>
+						</div>
 					</div>
-
-
 				</div>
-			</div>
-		</nav>
+			</nav>
 
 		<script src="js/jquery-1.11.3.js"></script>
 		<script src="js/bootstrap.js"></script>
