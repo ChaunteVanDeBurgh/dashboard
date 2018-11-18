@@ -1,6 +1,8 @@
+/* general CSS rules */
+
 .transition,
-.transition: hover,
-.transition: focus {
+.transition:hover,
+.transition:focus {
 	-webkit-transition: all 150ms ease-in-out;
 	-moz-transition: all 150ms ease-in-out;
 	-ms-transition: all 150ms ease-in-out;
@@ -13,6 +15,8 @@ html, body {
 	height: 100%;
 	background-color: #e5e9ec;
 }
+
+/* navbar */
 
 nav.navbar-fixed-top {
 	background-color: #FFF;
@@ -40,4 +44,34 @@ nav .top-left-menu {
 nav .header-refresh {
 	margin-left: auto;
 	color: #FFF;
+}
+
+/* navbar search */
+
+nav form#search {
+	padding: 0.9em;
+}
+
+nav form#search .input-group {
+	display: flex;
+	align-items: center;
+}
+
+nav form#search .input-group .form-control {
+	border-radius: 0.25em;
+	border: none;
+	width: 70%;
+	padding-left: 1.9em;
+	background-color: #F3F3F3;
+	box-shadow: none;
+}
+
+nav form#search .input-group .form-control:focus {
+	width: 100%;
+	box-shadow: none;
+}
+
+nav form#search .glyphicon-search {
+	z-index: 99;
+	left: 1.7em;
 }
