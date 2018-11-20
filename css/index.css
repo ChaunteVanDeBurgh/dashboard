@@ -245,3 +245,13 @@ nav #nav-menu {
 	text-decoration: none;
 	background-color: #434857;
 }
+
+/* side menu turn arrow links for dropdown */
+#side-menu ul.nav a:focus .glyphicon.pull-right {
+	transform: rotate(-90deg);
+}
+
+#side-menu ul.nav a .glyphicon.pull-right {
+	margin-top: 0.2rem;
+	will-change: transform;
+}
