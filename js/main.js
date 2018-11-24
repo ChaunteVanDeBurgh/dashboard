@@ -143,4 +143,17 @@ $(document).ready(function() {
             color: '#676F84'
         }]
     });
+
+	//real time information
+	changeMultiplier = 0.2;
+	window.setInterval(function() {
+		var freeSpacePercentage;
+		freeSpacePercentage = $('#free-space').text();
+		freeSpacePercentage = parseFloat(freeSpacePercentage);
+		delta = changeMultiplier * (Math.random() < 0.5 ? -1.0 : 1.0);
+		freeSpacePercentage = freeSpacePercentage + freeSpacePercentage * delta;
+		freeSpacePercentage = parseInt(freeSpacePercentage);
+		$('#free-space').text(freeSpacePercentage + '%');
+		}, 2000);
+
 });
