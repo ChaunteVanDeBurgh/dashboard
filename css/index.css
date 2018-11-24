@@ -58,6 +58,16 @@ nav .header-refresh {
 	color: #FFF;
 }
 
+.navbar-toggle {
+	border-color: #252830;
+	background-color: #e5e9ec;
+	margin-top: 13px;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #252830;
+}
+
 /* navbar search */
 
 nav form#search {
