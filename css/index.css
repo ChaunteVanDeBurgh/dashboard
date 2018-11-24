@@ -364,3 +364,19 @@ nav #nav-menu {
 	color: #8b591a0;
 }
 
+/* rations widget */
+
+#ration-stock .stacked-area {
+	height: 200px;
+}
+
+#ration-stock .switch {
+	font-weight: 300;
+	color: #8b91a0;
+	padding: 0.5rem 0;
+}
+
+#ration-stock .switchery {
+	float: right;
+}
+
