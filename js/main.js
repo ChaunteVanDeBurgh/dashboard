@@ -187,4 +187,17 @@ $(document).ready(function() {
 		}]
 	});
 
+	//toggle search bar
+	$('#search-icon').on('click', function (e) {
+		e.preventDefault();
+		$('form#search').slideDown('fast');
+		$('form#search input:first').focus();
+	});
+
+	$('form#search input').on('blur', function (e) {
+		if($('#search-icon').is(':visible')) {
+			$('form#search').slideUp('fast');
+		}
+	});
+
 });

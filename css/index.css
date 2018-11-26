@@ -53,7 +53,7 @@ nav .top-left-menu {
 	color: #FFF;
 }
 
-nav .header-refresh {
+nav .header-buttons {
 	margin-left: auto;
 	color: #FFF;
 }
@@ -96,6 +96,12 @@ nav form#search .input-group .form-control:focus {
 nav form#search .glyphicon-search {
 	z-index: 99;
 	left: 1.7em;
+}
+
+@media(max-width: 48em) {
+	form#search {
+		display: none;
+	}
 }
 
 /* nav menu */
