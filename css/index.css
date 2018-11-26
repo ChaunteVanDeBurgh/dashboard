@@ -108,6 +108,35 @@ nav form#search .glyphicon-search {
 nav #nav-menu {
 	padding: 0.4em;
 	padding-right: 1em;
+	float: right;
+}
+
+@media(max-width: 48em){
+	nav #nav-menu {
+		float: none;
+	}
+
+	#nav-menu #btn-notifications > .badge {
+		right: inherit;
+		left: 10rem;
+	}
+
+	#btn-notifications,
+	#btn-notifications > button {
+		width: 30%;
+		text-align: left;
+	}
+
+	#notification-list {
+		margin: 1.25rem;
+		margin-left: 2rem;
+		background-color: #e5e9ec;
+	}
+
+	#notification-list a {
+		background-color: #FFF;
+		opacity: 1;
+	}
 }
 
 /*nav menu and notifications*/
@@ -122,7 +151,8 @@ nav #nav-menu {
 	z-index: 99;
 }
 
-#btn-notifications .btn-link {
+#btn-notifications .btn-link,
+#nav-menu li a {
 	padding-top: 1.5rem;
 	color: #252830;
 	font-weight: 500;
