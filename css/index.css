@@ -139,6 +139,17 @@ nav #nav-menu {
 	}
 }
 
+#nav-menu.navbar-collapse {
+	max-height: 39rem;
+}
+
+#nav-menu .divider {
+	height: 0.1rem;
+	margin: 0.9rem 0;
+	overflow: hidden;
+	background-color: #e5e5e5;
+}
+
 /*nav menu and notifications*/
 #nav-menu #btn-notifications > .badge {
 	color: #FFF;
