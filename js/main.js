@@ -156,4 +156,35 @@ $(document).ready(function() {
 		$('#free-space').text(freeSpacePercentage + '%');
 		}, 2000);
 
+	//daily usage chart
+	$('#daily-usage .area-chart').highcharts({
+		title: {
+			text: '',
+		},
+		tooltip: {
+			pointFormat: '{series.name}: <b>{point.percentage:.if}%</b>'
+		},
+		plotOptions: {
+			pie: {
+				dataLabels: {
+					enabled: true,
+					style: {
+						fontWeight: '300'
+					}
+				}
+			}
+		},
+		series: [{
+			type: 'pie',
+			name: 'Time share',
+			data: [
+				['Front yard', 10.38],
+				['Closet',26.33],
+				['Swim pool', 51.03],
+				['Like a boss', 4.77],
+				['Barking', 3.93]
+			]
+		}]
+	});
+
 });
