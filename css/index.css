@@ -388,6 +388,19 @@ nav #nav-menu {
 	font-weight: 400;
 }
 
+@media(max-width: 48em) {
+	.round-chart,
+	.round-chart canvas {
+		display: block;
+		margin: auto;
+	}
+
+	.round-chart + .round-chart {
+		margin-top: 2rem;
+		float: none;
+	}
+}
+
 /* quick info widget */
 
 #quick-info .card-block {
