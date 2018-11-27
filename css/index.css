@@ -468,3 +468,9 @@ nav #nav-menu {
 #daily-usage .area-chart {
 	height: 200px;
 }
+
+/* audience */
+#content {
+	height: 30em;
+	overflow: auto;
+}
